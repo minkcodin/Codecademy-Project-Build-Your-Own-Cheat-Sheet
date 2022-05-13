@@ -130,7 +130,8 @@ th.th2 {
 }
 
 tr > td {
-    height: 62px;
+    height: 22px;
+    padding: 20px 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -138,6 +139,17 @@ tr > td {
     line-height: 28px;
     color: #FBFFFE;
     border-bottom: 2px solid rgba(251, 255, 254, 0.05);
+}
+
+.container-5 {
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 2px;
 }
 
 /* Color Palette */

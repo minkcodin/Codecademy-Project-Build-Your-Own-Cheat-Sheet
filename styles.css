@@ -1,0 +1,266 @@
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+a:visited {
+    color: #FBFFFE;
+    opacity: 0.25;
+}
+
+a:any-link {
+    text-decoration: none;
+}
+
+div.container-1 {
+    position: relative;
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+}
+
+img.logo {
+    display: inline;
+    position: absolute;
+    width: 173px;
+    height: 36px;
+    left: 0px;
+    top: 32px;
+
+}
+
+p.project-name {
+    display: inline;
+    position: absolute;
+    height: 15px;
+    right: 0px;
+    top: 32px;
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #FBFFFE;
+    opacity: 0.25;
+}
+
+p.written-by {
+    display: inline;
+    position: absolute;
+    height: 17px;
+    right: 0px;
+    top: 51px;
+    margin: 0%;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;  
+    color: #FBFFFE;
+}
+
+div.container-2 {
+    position: relative;
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+}
+
+h2.h2.primary-color {
+    text-align: center;
+    margin: 22px 0 15px 0;
+}
+
+h1.h1.light-color {
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.container-3 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 2px;
+}
+
+.container-4 {
+    position: relative;
+    width: 1200px;
+    margin: auto;
+}
+
+h3.h3 {
+    margin-bottom: 45px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr > th {
+    height: 62px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #749C75;
+    text-align: left;
+    border-top: 2px solid rgba(115, 156, 116, 0.25);
+    border-bottom: 2px solid rgba(115, 156, 116, 0.25);
+}
+
+th.th1 {
+    width: 305px;
+    margin: 0;
+}
+
+th.th2 {
+    width: 895px;
+    margin: 0;
+}
+
+tr > td {
+    height: 62px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FBFFFE;
+    border-bottom: 2px solid rgba(251, 255, 254, 0.05);
+}
+
+/* Color Palette */
+
+.dark-color-background {
+    background-color: #171A21;
+}
+
+.dark-color {
+    color: #171A21;
+}
+
+.light-color-background {
+    background-color: #FBFFFE;
+}
+
+.light-color {
+    color: #FBFFFE;
+}
+
+.primary-color-background {
+    background-color: #4369EE;
+}
+
+.primary-color {
+    color:#4369EE;
+}
+
+.secondary-color-background {
+    background-color: #749C75;
+}
+
+.secondary-color {
+    color: #749C75;
+}
+
+.secondary-2-color-background {
+    background-color: #E54B4B;
+}
+
+.secondary-2-color {
+    color: #E54B4B;
+}
+
+/* Text Style */
+
+.h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.body-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.body-text-2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.link-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FBFFFE;
+    opacity: 0.25;
+}
+
+.link-text:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.italic-text {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F0F0F0;
+}
+
+.bold-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FBFFFE;
+}
